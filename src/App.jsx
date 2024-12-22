@@ -8,6 +8,7 @@ const TagContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 12px;
 `;
 
 const Card = styled.div`
@@ -20,6 +21,7 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 `;
 
 const AdviceP = styled.p`
@@ -27,15 +29,13 @@ const AdviceP = styled.p`
     font-weight: 800;
     letter-spacing: 4px;
     color: var(--Neon-Green);
-
-    padding: 20px;
 `;
 
 const MensagemP = styled.p`
     font-weight: 800;
     font-size: 1.3rem;
     color: var(--Light-Cyan);
-    padding: 20px;
+    padding: 20px 0;
 `
 
 export default function App() {
