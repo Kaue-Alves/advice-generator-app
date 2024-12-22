@@ -1,13 +1,16 @@
 import styled from 'styled-components';
-import { GlobalStyle } from './assets/styles/global';
-import { Container } from './App.styles';
+
+const TagContainer = styled.div`
+  width: 100dvw;
+  height: 100dvh;
+  background-color: var(--Dark-Blue);
+`
 
 export default function App() {
 
   return (
-    <Container>
-      <GlobalStyle/>
-      <h1>Opa</h1>
-    </Container>
+    <TagContainer>
+      opa
+    </TagContainer>
   )
 }
