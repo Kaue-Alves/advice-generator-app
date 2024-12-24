@@ -3,8 +3,6 @@
 
 Um aplicativo interativo que gera conselhos aleatórios ao toque de um botão. Desenvolvido com **ReactJS**, utiliza **Axios** para buscar dados da API [Advice Slip](https://api.adviceslip.com/) e estilizado com **styled-components**.
 
-![Preview do Projeto](link-da-imagem-aqui) <!-- Substitua com a URL de uma imagem ou GIF de demonstração -->
-
 ---
 
 ## 🚀 Funcionalidades
@@ -24,6 +22,10 @@ Um aplicativo interativo que gera conselhos aleatórios ao toque de um botão. D
 ---
 
 ## 📂 Como executar o projeto
+
+Clique [aqui.](https://advice-generator-app-lake-five.vercel.app/) para acessar o site.
+
+Ou siga as etapas abaixo.
 
 1. Clone este repositório:
 
@@ -46,10 +48,10 @@ Um aplicativo interativo que gera conselhos aleatórios ao toque de um botão. D
 4. Inicie o servidor de desenvolvimento:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-5. Abra o navegador e acesse `http://localhost:3000`.
+5. Abra o navegador e acesse `http://localhost:5173`.
 
 ---
 
@@ -69,14 +71,6 @@ O design foi inspirado no desafio proposto pelo **Frontend Mentor**. Confira o d
 
 ---
 
-## 💡 Melhorias futuras
-
-- Adicionar animações suaves na troca de conselhos.
-- Implementar um sistema de favoritos para salvar conselhos.
-- Melhorar acessibilidade com foco em leitores de tela.
-
----
-
 ## 🧑‍💻 Autor
 
 - **Nome**: Kaue Alves
@@ -91,12 +85,6 @@ O design foi inspirado no desafio proposto pelo **Frontend Mentor**. Confira o d
 - [Documentação ReactJS](https://reactjs.org/)
 - [Documentação Axios](https://axios-http.com/)
 - [Documentação styled-components](https://styled-components.com/)
-
----
-
-## 📜 Licença
-
-Este projeto é licenciado sob a **MIT License**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
