@@ -28,7 +28,7 @@ export default function App() {
                     <S.MensagemP>{conselho}</S.MensagemP>
                     <Line />
                 </S.Card>
-                <S.BotaoGerar onClick={pegarConselho}>
+                <S.BotaoGerar onClick={pegarConselho} disabled={carregando}>
                     {carregando ? (
                         <TailSpin height="24" width="24" color="#202733" />
                     ) : (
